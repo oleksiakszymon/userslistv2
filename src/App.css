@@ -1,7 +1,32 @@
 .App {
-  text-align: center;
+  margin: 50px;
+  font-size: 20px;
+  line-height: 15px;
+  font-weight: bold;
 }
-
+.users-list {
+  height: 100vh;
+  width: 50%;
+  float: left;
+}
+.user-info {
+  height: 100vh;
+  width: 50%;
+  float: left;
+  text-align: center;
+  line-height: 50px;
+  font-size: 30px;
+}
+.selected-user {
+  color: red;
+}
+ul {
+  line-height: 50px;
+  list-style: none;
+}
+li {
+  cursor: pointer;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
